@@ -3,8 +3,8 @@ import styles from "./styles.module.css";
 export default function PrivacyPolicyContent() {
   return (
     <div className={styles.container}>
-      <div className={styles.headingCenter}>
-        <h1>Pirayo's Privacy Policy</h1>
+      <div>
+        <h1>Pirayo&apos;s Privacy Policy</h1>
       </div>
       <div className={styles.divider} />
       <p>
@@ -143,7 +143,8 @@ export default function PrivacyPolicyContent() {
       <div className={styles.divider} />
       <p>
         If you have any questions, concerns, or requests regarding this Privacy
-        Policy, please contact us at <a href="mailto:info@pirayo.com">info@pirayo.com</a>.
+        Policy, please contact us at{" "}
+        <a href="mailto:info@pirayo.com">info@pirayo.com</a>.
       </p>
     </div>
   );
