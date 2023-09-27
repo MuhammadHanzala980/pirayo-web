@@ -1,0 +1,13 @@
+.container{
+    max-width: 1180px;
+    margin: auto;
+    padding: 5em 5px;
+}
+
+.divider{
+    padding: 1.5rem 0px;
+}
+
+.divider2{
+    padding: .5rem 0px;
+}
