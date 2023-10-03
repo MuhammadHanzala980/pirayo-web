@@ -1,9 +1,9 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -86,16 +86,90 @@ body {
 }
 ul {
   padding-left: 3rem;
+}
 
-} 
-
-ul li{
+ul li {
   padding: 5px 0px;
 }
 
 a {
   color: #006eff;
   text-decoration: underline;
-font-weight: 700;
+  font-weight: 700;
 }
- 
+
+.container {
+  background-color: #fafafa;
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+  gap: 15px;
+}
+.flex-column {
+  flex-direction: column;
+  gap: 15px;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+
+.box {
+  max-width: 420px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 35px 20px;
+  border-radius: 12px;
+  box-shadow:  0px 0px 5px -3px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: __Inter_e66fe9;
+}
+.btn-main {
+  background-color: #e2cf1e;
+  color: #fff;
+}
+
+.inp-main {
+  background-color: #efefef;
+}
+
+input {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: __Inter_e66fe9;
+}
+
+.heading-center {
+  text-align: center;
+}
+
+.label {
+  font-size: 0.75rem;
+}
+
+.pt-6 {
+  padding-top: 6rem;
+}
+
+.pb-4 {
+  padding-bottom: 4rem;
+}
